@@ -1,0 +1,25 @@
+# Official JDBC documentation
+https://jdbc.postgresql.org/documentation/head/index.html
+
+###############
+# Installation
+###############
+- need to install 2 apps:
+1. PostgreSQL - SQL Engine that stores data, read queries and returns information
+2. PgAdmin - GUI for connecting with PostgreSQL
+
+## Step 1 - Install PostgreSQL
+- go to home page: https://www.postgresql.org/
+- click on download
+- latest link: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+- password : password
+- port : 5433
+
+## Step 2 - Install PgAdmin
+- go to home page: https://www.pgadmin.org/
+- click on download
+- latest link: https://www.pgadmin.org/download/pgadmin-4-windows/
+- Run the installer exe as administrator
+
+
+
