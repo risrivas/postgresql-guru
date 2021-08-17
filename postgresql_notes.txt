@@ -51,6 +51,28 @@ Query Tool - Editor - chose any Font size
 ################################
 # Creating databases and tables
 ################################
+- data types:
+https://www.postgresql.org/docs/current/datatype.html
+
+Boolean - True or False
+Character - char, varchar, text
+Numeric - integer, floating
+Temporal - date, time, timestamp, interval
+
+UUID
+Array
+JSON
+Hstore
+
+# Primary key:
+- unique column(s) to identify row
+- also important for joining tables
+- in pgAdmin - results - will have [PK] for primary key
+
+# Foreign key: primary key of another table
+- in pgAdmin - see all foreign keys in table -> Constraints
+
+
 
 
 
