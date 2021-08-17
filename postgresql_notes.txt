@@ -22,4 +22,38 @@ https://jdbc.postgresql.org/documentation/head/index.html
 - Run the installer exe as administrator
 
 
+##################
+# Set up database
+##################
+- launch PgAdmin
+- set the master password : password
+- Servers: double click the PostgreSQL version which was installed
+- Type the password
+- there is a default database already available called as "postgres"
+- right click -> create -> database
+- type the database name as dvdrental and save
+- right click on dvdrental -> restore
+- chose the dvdrental.tar full path
+- restore options - chose yes to pre-data, data, post-data
+- right click on dvdrental -> query tool
+- fire the query with semicolon
+SELECT * FROM film;
+
+
+#################
+# pgAdmin review
+#################
+- File - Preferences
+Misc - Themes - chose dark theme
+Query Tool - Editor - chose any Font size
+
+
+################################
+# Creating databases and tables
+################################
+
+
+
+
+
 
